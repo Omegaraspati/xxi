@@ -10,6 +10,15 @@ import tigabelas from '@/assets/r13.png'
 import seni from '@/assets/senikekasih.jpg'
 import alien from '@/assets/alien.jpg'
 import SU from '@/assets/su.png'
+import kangmak from '@/assets/kangmak.jpg'
+import kakabos from '@/assets/kakaboss.jpg'
+import thaugt from '@/assets/thaught.jpg'
+import dosenghoib from '@/assets/dosengaib.jpg'
+import crown from '@/assets/thecrown.jpg'
+import itwu from '@/assets/itendwithus.jpg'
+import subser from '@/assets/subservive.jpg'
+import loh from '@/assets/land of happines.jpg'
+
 
 const GridFilm = () => {
     return (
@@ -60,6 +69,88 @@ const GridFilm = () => {
                      </article>
                 </div>
             </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={kangmak} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>Kang Mak (From Pee Mak)</h1>
+                        <Image alt="17" src={tigabelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={thaugt} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>Thaghut</h1>
+                        <Image alt="17" src={tigabelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={kakabos} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>Kaka Bos</h1>
+                        <Image alt="17" src={tigabelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={dosenghoib} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>Dosen Ghaib: Sudah Malam atau Sudah Tau</h1>
+                        <Image alt="17" src={tujubelas} width={50}height={10}className="mx-auto pt-3" />
+                     </article>
+                </div>
+            </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={loh} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>Land Of Happines</h1>
+                        <Image alt="17" src={tigabelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={crown} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>The Crown</h1>
+                        <Image alt="17" src={tujubelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={subser} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>Subservience</h1>
+                        <Image alt="17" src={tujubelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
+            <div className="h-full">
+                <div>
+                    <article className="overflow-hidden transition cursor-pointer space-y-2">
+                        <Image alt="alien" src={itwu} className="h-full w-full object-cover"/>
+                     <h1 className='text-center font-semibold text-xl'>It Ends With Us</h1>
+                        <Image alt="17" src={tujubelas} width={50}height={10}className="mx-auto pt-10" />
+                     </article>
+                </div>
+            </div>
+
 
             </div>
         </div>
